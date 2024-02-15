@@ -480,7 +480,7 @@ sfh:
                                                 # unit: º [0, 90]
                                                 # note: if file is not set to "specs", this parameter is ignored
 
-      controllable: [true , true]               # can the pv inverter be controlled? true or false
+      controllable: [false , false]               # can the pv inverter be controlled? true or false
 
     fcast:
       method: naive                           # forecasting method
